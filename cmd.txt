@@ -1,0 +1,28 @@
+- install vite in current directiory: npm create vite@latest ./ -- --template react
+- run npm install: npm i
+- install tailwind: npm install -D tailwindcss postcss autoprefixer
+- generate taiwind and postcss config files: npx tailwindcss init -p
+- add this code in tailwind.config.js inside the content array: 
+     "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+
+- remove all code from index.css and paste this tailwind directives:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+- delete the app.css file
+- remove all code from App.jsx and write the boilerplate code:
+import React from "react";
+
+const App = () => {
+  return (
+    <div>
+      <h1 className="text-3xl font-bold underline">Hi</h1>
+    </div>
+  );
+};
+export default App;
+
+- start the dev server: npm run dev  (starts the server at localhost:5173)
+- 
