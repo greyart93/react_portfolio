@@ -25,4 +25,10 @@ const App = () => {
 export default App;
 
 - start the dev server: npm run dev  (starts the server at localhost:5173)
-- 
+- github cmds:
+- git init
+- git add . (add all files to git)
+- git reset (makes all fiels untracked)
+- git push origin master
+- git clone https://github.com/kushald/react-portfolio-assets-kevin.git
+
